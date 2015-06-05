@@ -18,20 +18,20 @@
         <div class="panel panel-default">
           <div class="panel-heading">
             <h4 class="panel-title">
-              <a class="accordion-toggle " data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
                 <div id="bottomline">
-                  <div>Deposit:<span class="totals" id="all_total"></span></div>
-                  <div>Cash:<span class="totals" id="cash_total"></span></div>
-                  <div>Coin:<span class="totals" id="rolls_total"></span></div>
+                  <div class="headTotals">Deposit:<span class="totals" id="all_total"></span></div>
+                  <div class="headTotals">Cash:<span class="totals" id="cash_total"></span></div>
+                  <div class="headTotals">Coin:<span class="totals" id="rolls_total"></span></div>
                 </div>
               </a>
             </h4>
           </div>
         </div>
         <div id="collapseOne" class="panel-collapse collapse in">
-          <form id="bottomline" class="ui-grid-a panel-body" data-toggle="collapse" data-parent="#accordion">
-            <label for="float" class="ui-block-a">Float</label>
-            <input type="number" id="float" class="ui-block-b" name="float" value="300.00">
+          <form id="bottomline" class="panel-body" data-toggle="collapse" data-parent="#accordion">
+            <label for ="float">Float</label>
+            <input type="number" id="float" name="float" value="300.00">
           </form>
         </div>
       </div>

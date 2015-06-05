@@ -70,22 +70,18 @@ h1 {
     text-align:center;
 }
 
-#bottomline >div{
+#bottomline .headTotals{
     float:left;
-    width: 30%
+    width: 30%;
+    font-size:14px;
 }
 
 .panel-heading{
     height:45px;
 }
 
-#bottomline li{
-    display: inline-block;
-    color: green;
-}
-
 .totals{
-    font-size:18px;
+    font-size:15px;
 }
 
 h4{
